@@ -13,22 +13,46 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-2">
             <div class="media-02819">
               <a href="#" class="img-link"><img src="{{ asset('images/Case-study-759x400.jpg')}}" alt="Image" class="img-fluid"></a>
-              <h3><a href="#">Analyse et Conception</a></h3>
+              <h3><a href="#">Analyse Conception</a></h3>
               <span>Dakar, Senegal</span>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-2">
             <div class="media-02819">
               <a href="#" class="img-link"><img src="{{ asset('images/webmobileapp.jpg')}}" alt="Image" class="img-fluid"></a>
-              <h3><a href="#">Application web mobile</a></h3>
+              <h3><a href="#">Application web</a></h3>
               <span>Dakar, Senegal</span>
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-2">
+            <div class="media-02819">
+              <a href="#" class="img-link"><img src="{{ asset('images/mobil.jpeg')}}" alt="Image" class="img-fluid"></a>
+              <h3><a href="#">Application mobile</a></h3>
+              <span>Dakar, Senegal</span>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="media-02819">
+              <a href="#" class="img-link"><img src="{{ asset('images/designinfraph.jpg')}}" alt="Image" class="img-fluid"></a>
+              <h3><a href="#">Design graphique</a></h3>
+              <span>Dakar, Senegal</span>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="media-02819">
+              <a href="#" class="img-link"><img src="{{ asset('images/webmobileapp.jpg')}}" alt="Image" class="img-fluid"></a>
+              <h3><a href="#">Application web</a></h3>
+              <span>Dakar, Senegal</span>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
             <div class="media-02819">
               <a href="#" class="img-link"><img src="{{ asset('images/Socialmedia-pm.png')}}" alt="Image" class="img-fluid"></a>
               <h3><a href="#">Marketing digital</a></h3>
@@ -36,13 +60,6 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
-            <div class="media-02819">
-              <a href="#" class="img-link"><img src="{{ asset('images/designinfraph.jpg')}}" alt="Image" class="img-fluid"></a>
-              <h3><a href="#">Design et Infographie</a></h3>
-              <span>Dakar, Senegal</span>
-            </div>
-          </div>
 
         </div>
       </div>

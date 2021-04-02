@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>GS-IT &mdash; Global Service of Information and Technology</title>
   <meta charset="utf-8">
@@ -37,6 +38,8 @@
         <div class="site-mobile-menu-body"></div>
       </div>
 
+
+
       <header class="site-navbar site-navbar-target bg-white" role="banner">
 
         <div class="container">
@@ -55,6 +58,8 @@
               <div class="site-logo">              
               <img src="{{ asset('fonts/flaticon/svg/keyorbsit.png')}}" alt="Image" class="img-fluid">
               </div>
+
+
               <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
             </div>
             <div class="col-lg-4">
@@ -71,10 +76,16 @@
 
           </div>
         </div>
+
       </header>
 
 
+
+
 @yield("content")
+
+
+
 
 
 <div class="site-section section-4">
@@ -106,6 +117,9 @@
       </div>
     </div>
     
+
+    
+    
     <footer class="site-footer bg-light">
       <div class="container">
         <div class="row">
@@ -113,7 +127,8 @@
             <div class="row">
               <div class="col-md-7">
                 <h2 class="footer-heading mb-4">A propos de nous</h2>
-                <p>Nous travaillons sur la base des nouvelles technologies afin de vous offrir un développement informatique intuitif et efficient...</p>
+                <p>Nous travaillons sur la base des nouvelles technologies afin de vous offrir un développement informatique intuitif et efficient. Avec plusieurs incidences positives dont, une amélioration de votre image de marque, un renforcement de l’engagement client et de sa fidélisation...</p>
+
               </div>
               <div class="col-md-4 ml-auto">
                 <h2 class="footer-heading mb-4">Global Service of IT</h2>

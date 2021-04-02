@@ -1,20 +1,25 @@
-
 @extends("layouts.app")
 @section("content")
-
 <div class="site-section">
-      <div class="container">
-        
+<div class="container">
         <div class="row">
           <div class="col-lg-8 mb-5" >
-            <form action="{{route('store_Contact')}}" method="post">
+            <form action="{{route('store_Devi')}}" method="post">
             @csrf
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" name="prenom" class="form-control" placeholder="Prenom">
+                  <input type="text" name="type" class="form-control" placeholder="Entreprise ou particulier">
                 </div>
                 <div class="col-md-6">
-                  <input type="text" name="nom" class="form-control" placeholder="Nom">
+                  <input type="text" name="adresse" class="form-control" placeholder="Adresse excacte">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-6 mb-4 mb-lg-0">
+                  <input type="text" name="nom" class="form-control" placeholder="Nom complet">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" name="objet" class="form-control" placeholder="Objet">
                 </div>
               </div>
               <div class="form-group row">
@@ -27,7 +32,7 @@
             </div>
               <div class="form-group row">
                 <div class="col-md-12">
-                  <textarea name="votre_message" class="form-control" placeholder="Entrer votre message" cols="30" rows="10"></textarea>
+                  <textarea name="votre_message" class="form-control" placeholder="Entrer votre message" cols="30" rows="9"></textarea>
                 </div>
               </div>
               <div class="form-group row">
@@ -39,7 +44,7 @@
           </div>
           <div class="col-lg-4 ml-auto">
             <div class="bg-white p-3 p-md-5">
-              <h3 class="heading-39291">Contact Info</h3>
+              <h3 class="heading-39291">Contact info </h3>
               <ul class="list-unstyled footer-link">
                 <li class="d-block mb-3">
                   <span class="d-block text-black small text-uppercase font-weight-bold">Addresse:</span>
@@ -54,5 +59,7 @@
     </div>
 
     
+
+
 
 @endsection
